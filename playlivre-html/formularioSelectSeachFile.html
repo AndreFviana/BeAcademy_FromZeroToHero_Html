@@ -1,0 +1,65 @@
+<!--
+  Formulário com Select, Search, e file.
+-->
+  <form action="" method="post" enctype="multipart/forma-data">
+    <!--AVISO IMPORTANTE NA LINHA 39 sobre o enctype-->
+
+    <fieldset>
+      <legend>
+        Trabalhando com Input
+      </legend>
+
+      <!--Abaixo,trabalharemos com SELECT: Elemento de formulário que possibilita ao usuário selecionar opções em forma de lista-->
+      <label for="teacher">Professores</label>
+
+      <select name="select-teacher" id="teacher" multiple size="4">
+
+        <option value="">Selecione um professor</option>
+        <option value="Luan Santos">Luan Santos</option>
+        <option value="Moacir Garcia">Moacir Garcia</option>
+        <option value="Jenifer Vieira">Jenifer Viera</option>
+        <option value="Regis Santos">Regis Eduardo</option>
+      </select>
+
+      <!--Abaixo, veremos o SEARCH: Elemento usado para pesquisar conteúdo-->
+      <br><br>
+
+      <input type="search"
+      name=""
+      title=""
+      placeholder="Busque pelo Id"
+      size=""
+      pattern="[0-9]{0,3}"
+      title="Busque pelo Id de até 3 digitos"
+      >
+      <br><br>
+      <!--Agora, o Input FILE: permite que o usuário faça upload de 1 ou mais arquivos no formulário-->
+
+      <input type="file" value="" accept="image/*"
+      multiple>
+
+      <!-- IMPORTANTE: para permitir que o formulário aceite o upload de arquivos pelo usuário, é necessário colocar o elemento >>>enctype="multipart/forma-data"<<< lá na tag <form>"-->
+
+
+
+
+  
+
+
+  
+  
+      <button type="submit">enviar</button>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      </fieldset>
+  </form>

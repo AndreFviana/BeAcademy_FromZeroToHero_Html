@@ -1,0 +1,52 @@
+<!--
+  A tag <textarea> é um lemento de texto com mais de uma linha. Muito utulizado em textos maiores.
+-->
+<for action="cof.html" method="post">
+<textarea></textarea><br>
+
+<label for="massage">Mensagem</label>
+<textarea
+  id="message"
+  name="message"
+  cols="40"
+  rows="8"
+  minlength="10"
+  maxlength="200"
+  wrap="soft"
+  ></textarea>
+
+  <!--
+    OPTGROUP
+    Elemento usado para agrupar sequencia de seleções ou opções
+  -->
+<br><br>
+
+<label> Escola seu professor</label>
+<br>
+<select name="prof" multiple>
+  <optgroup label="Professores">
+  <option value="Lan">Luan</option>
+  <option value="Regis">Regis</option>
+  <option value="Jenifer">Jenifer</option>
+  <option value="Moacir">Moarcir</option>
+</optgroup>
+
+<optgroup label="Cursos">
+  <option value="">Front</option>
+  <option value="">Back</option>
+  <option value="">Designe</option>
+  <option value="">DevOps</option>
+  <!--podemos utilizar o elemento DISABLED para desabilitar um nome da lista, é só colocar DISABED após o value-->
+</optgroup>
+</select>
+
+
+
+
+
+
+
+
+
+
+</for>
